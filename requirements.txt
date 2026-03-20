@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+temporalio
+requests
+kubernetes
+strands-agents
+boto3
+pydantic

@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ai-devops-app
+
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: ai-devops
+
+  template:
+    metadata:
+      labels:
+        app: ai-devops
+
+    spec:
+      containers:
+      - name: app
+        image: ai-devops-app
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8000
