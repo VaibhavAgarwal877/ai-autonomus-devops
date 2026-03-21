@@ -9,6 +9,7 @@ from activities.docker_fix import restart_container
 from activities.cicd_fix import retry_pipeline
 from activities.cpu_fix import scale_service
 from activities.api_fix import restart_api
+from activities.llm_activity import analyze_with_llm
 
 async def main():
 
@@ -19,6 +20,7 @@ async def main():
         task_queue="incident-queue",
         workflows=[IncidentWorkflow],
         activities=[
+            analyze_with_llm,
             restart_pod,
             restart_container,
             retry_pipeline,
