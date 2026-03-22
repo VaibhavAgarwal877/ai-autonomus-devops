@@ -153,8 +153,6 @@ kubectl get pods -w
 ---
 
 ## 📸 Screenshots
-![WhatsApp Image 2026-03-21 at 07 34 50](https://github.com/user-attachments/assets/07c67474-fdce-4254-aee5-4a3ef5088d51)
-
 ![WhatsApp Image 2026-03-21 at 07 34 51 (1)](https://github.com/user-attachments/assets/29282cd0-a847-4cd2-8bd3-8ac91669d48f)
 ![WhatsApp Image 2026-03-21 at 07 34 51 (2)](https://github.com/user-attachments/assets/bab89229-5f56-46ce-8078-923f9661bc1c)
 ![WhatsApp Image 2026-03-21 at 07 34 51](https://github.com/user-attachments/assets/3e0871c4-66a8-4f0d-bfb2-2024ad8f7220)
